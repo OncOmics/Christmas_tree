@@ -5,5 +5,11 @@
 ## Mix some normaly(🔔) and uniformly(🎲) distributed points!!
 
 ### ....Paint them with your most joyful holiday colors ✨❤️💚🌈
-_______________________________________________
+
 #### **And Voilà! Your algorithmic Christmas masterpiece shines bright! 🌟🎁**
+
+_____________________________________________________________________________________________
+
+Don't forget to check our GitHub and Instagram page. There are some cool stuff about our research there!
+
+[GitHub](https://github.com/OncOmics)  - [Instagram](https://www.instagram.com/oncomics_lab?igsh=MTdtbGh4cXZ6bnliZg==)
