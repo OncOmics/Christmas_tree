@@ -85,6 +85,13 @@ p <- ggplot(final_data, aes(x = UMAP_1, y = UMAP_2, color = type)) +
     x = "umap_1",
     y = "umap_2")
 
-ggsave(plot = p, filename = "tree.png", path = "/media/hd/pimenta2/natal_decoracao",
+# plot
+plot(p)
+
+# or save it
+ggsave(
+  plot = p, 
+  filename = "tree.png",
   width = 9, 
-  height = 10, dpi = 300)
+  height = 10, dpi = 300
+)
