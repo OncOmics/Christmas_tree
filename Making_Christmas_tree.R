@@ -67,12 +67,21 @@ p <- ggplot(final_data, aes(x = UMAP_1, y = UMAP_2, color = type)) +
     plot.title = element_text(color = "black", hjust = 0.5, size = 30, face = "bold"),
     plot.subtitle = element_text(color = "#9b4646", hjust = 0.5, size = 20),
     axis.title = element_text(color = "black", size = 12, face = "bold"),
-    axis.line = element_line(color = "black", arrow = arrow(length = unit(0.3, "cm"), type = "closed")),
+    axis.text = element_text(color = "black", size = 15),        # Sets the number size
+    axis.ticks = element_line(color = "black", linewidth = 0.5), # Sets the tick mark thickness
+    axis.ticks.length = unit(0.5, "cm"),                         # Sets how long the ticks are
+    # Axis Lines
+    axis.line = element_line(
+      color = "black", 
+      linewidth = 2, 
+      arrow = arrow(length = unit(0.3, "cm"), type = "closed")
+    ),
     axis.title.y = element_text(angle = 90, vjust = 1)
+  
   ) +
   labs(
     title = "OncOmics\n\nscRNA-seq Tree",
-    subtitle = "n_cells = 45300 | Cluster: Merry Christmas",
+    subtitle = "n_cells = 45700 | Cluster: Merry Christmas",
     x = "umap_1",
     y = "umap_2")
 
