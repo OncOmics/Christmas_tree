@@ -5,5 +5,5 @@
 ## Mix some normaly(🔔) and uniformly(🎲) distributed points!!
 
 ### ....Paint them with your most joyful holiday colors ✨❤️💚🌈
-
+_______________________________________________
 #### **And Voilà! Your algorithmic Christmas masterpiece shines bright! 🌟🎁**
